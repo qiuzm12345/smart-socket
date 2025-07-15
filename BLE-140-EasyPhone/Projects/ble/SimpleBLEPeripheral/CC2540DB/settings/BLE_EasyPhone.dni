@@ -1,0 +1,102 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[Simulator]
+Freq=50000000
+[DebugChecksum]
+Checksum=-1160717866
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[BreakpointUsageDialog]
+Placement=_ 498 289 943 571
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=1
+Graph=0
+Symbiont=0
+Exclusions=
+[SfrWindow]
+Show=1 1
+Sort=4 0
+[InterruptLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=0
+[DataLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+[Breakpoints2]
+Count=0
+[Interrupts]
+Enabled=1
+[MemoryMap]
+Enabled=0
+Base=0
+UseAuto=0
+TypeViolation=1
+UnspecRange=1
+ActionState=1
+[Trace1]
+Enabled=0
+ShowSource=1
+[struct_types]
+Fmt0=gattAttribute_t-handle	4	0
+[array_types]
+Fmt0=uint8 [19]	4	0
+Fmt1=uint8 [4]	4	0
+[watch_formats]
+Fmt0={W}0:A	4	0
+Fmt1={W}0:Curr_Sys_Parm.SecondOfRtc	4	0
+Fmt2={W}0:Curr_Sys_Parm1.Plan_time[i].Data.Time	4	0
+Fmt3={W}0:DPTR	4	0
+Fmt4={W}0:FlashSecondleft	3	0
+Fmt5={W}0:GATTServApp_ProcessCharCfg	3	0
+Fmt6={W}0:R0	4	0
+Fmt7={W}0:R1	4	0
+Fmt8={W}0:R2	4	0
+Fmt9={W}0:R3	4	0
+Fmt10={W}0:R4	4	0
+Fmt11={W}0:R6	4	0
+Fmt12={W}0:R7	4	0
+Fmt13={W}0:SP	4	0
+Fmt14={W}0:TimeVar	4	0
+Fmt15={W}0:XSPH	4	0
+Fmt16={W}0:XSPL	4	0
+Fmt17={W}0:tempcode	3	0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Breakpoints]
+Bp0=_ "STD_CODE" "{$PROJ_DIR$\..\Source\RTC_func.c}.338.1" 0 0 0 0 "" 0 ""
+Bp1=_ "STD_CODE" "{$PROJ_DIR$\..\Source\RTC_func.c}.338.1" 0 0 0 0 "" 0 ""
+Count=2
+[ChipconEmu]
+Stop timers on halt=0
+Leave target running=1
+[Aliases]
+A0=_ "F:\work\Bluetooth\BLE-140-EasyPhone\Components\hal\target\CC2540EB\hal_startup.c" "G:\work\BT_EasyPhone\BT_CC2540\BLE-140-eBox\Components\hal\target\CC2540EB\hal_startup.c"
+A1=_ "G:\work\BT_EasyPhone\BT_CC2540\BLE-140-EasyPhone\Projects\ble\Profiles\Roles\gap.c" ""
+A2=_ "G:\work\BT_EasyPhone\BT_CC2540\BLE-140-EasyPhone\Projects\ble\SimpleBLEPeripheral\Source\SimpleBLEPeripheral_Main.c" ""
+Count=3
+SuppressDialog=1
