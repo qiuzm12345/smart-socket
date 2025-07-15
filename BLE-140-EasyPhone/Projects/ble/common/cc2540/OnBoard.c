@@ -113,7 +113,7 @@ void InitBoard( uint8 level )
   if ( level == OB_COLD )
   {
     // Interrupts off
-    osal_int_disable( INTS_ALL );
+    osal_int_disable( INTS_ALL ); //??????????????????????
     // Turn all LEDs off
     //HalLedSet( HAL_LED_ALL, HAL_LED_MODE_OFF );
     

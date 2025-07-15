@@ -1042,7 +1042,7 @@ uint8 osal_int_disable( uint8 interrupt_id )
 uint8 osal_init_system( void )
 {
   // Initialize the Memory Allocation System
-  osal_mem_init();
+  osal_mem_init();// ??????
 
   // Initialize the message queue
   osal_qHead = NULL;
@@ -1051,7 +1051,7 @@ uint8 osal_init_system( void )
   osalTimerInit();
 
   // Initialize the Power Management System
-  osal_pwrmgr_init();
+  osal_pwrmgr_init();// ????????
 
   // Initialize the system tasks.
   osalInitTasks();

@@ -248,14 +248,14 @@ extern "C"
 #define HAL_BOARD_INIT()                                                       \
 {                                                                              \
   /* Set to 16Mhz to set 32kHz OSC, then back to 32MHz */                      \
-  START_HSOSC_XOSC();                                                          \
-  SET_OSC_TO_HSOSC();                                                          \
+  START_HSOSC_XOSC();     /* ????????(HSOSC)?32kHz??(XOSC) */         \
+  SET_OSC_TO_HSOSC();     /* ???????HSOSC(16MHz?32MHz) */                \
 \
-  SET_OSC_TO_XOSC();                                                           \
-  STOP_HSOSC();                                                                \
+  SET_OSC_TO_XOSC();      /* ???????XOSC(32MHz) */                        \
+  STOP_HSOSC();           /* ??HSOSC????? */                              \
                                                                                \
   /* Enable cache prefetch mode. */                                            \
-  PREFETCH_ENABLE();                                                           \
+  PREFETCH_ENABLE();    /* ?????????????????*/                                                       \
 }
   /*SET_32KHZ_OSC();                                                             \*/
 
